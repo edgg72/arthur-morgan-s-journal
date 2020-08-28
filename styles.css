@@ -1,0 +1,60 @@
+#scrollUp {   /* the arrow that takes you to the top */
+    
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background: url('up.png');
+    background-size: cover;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+html{                      
+    height: 100vh;
+    cursor: url("../black_cursor.cur"),auto; /* displaying the black pointer */
+    
+}
+
+
+
+
+.right{
+    display:flex;  /* to align properly the social media buttons */
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+@font-face{                      /*using the custom font*/
+    font-family: handwriting_fontfont;
+    src: url(handwriting_fontfont);
+}
+
+
+h2 {
+    font-family:handwriting_fontfont;
+    font-weight: bold;
+}
+
+
+h3 {
+    font-family:handwriting_fontfont;
+    font-weight: bold;
+}
